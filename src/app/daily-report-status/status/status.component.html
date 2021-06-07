@@ -1,0 +1,73 @@
+<div class="status">
+  <img
+    src="../../../assets/img/close.png"
+    alt=""
+    width="30px"
+    height="30px"
+    class="close"
+  />
+  <div class="status-det">
+    <img
+      src="../../../assets/img/birds.png"
+      alt=""
+      width="100px"
+      height="100px"
+      class="image"
+    />
+
+    <div class="head-title"><h3>Bird Group</h3></div>
+    <div class="health">
+      <p>5 Unhealthy</p>
+      <p>7 Healthy</p>
+    </div>
+
+    <div class="health-table">
+      <table>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>Food</td>
+            <td></td>
+            <td align="center">AT</td>
+            <td align="center">ET</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="../../../assets/img/sun.svg"
+                alt=""
+                width="40px"
+                height="40px"
+                class="sun"
+              />
+            </td>
+            <td>Morning</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td align="center">10.00 AM</td>
+            <td align="center">10.00 AM</td>
+          </tr>
+          <tr>
+            <td>30°C</td>
+            <td>Afternoon</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td align="center">02.00 PM</td>
+            <td align="center">01.30 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="item-list">
+      <app-status-item *ngFor="let i of [1, 2, 3]"></app-status-item>
+    </div>
+
+    <div class="issue-list">
+      <p>Today's Issue</p>
+      <ul>
+        <li>The bird health is fine today</li>
+        <li>The bird health is fine today</li>
+        <li>The bird health is fine today</li>
+      </ul>
+    </div>
+  </div>
+</div>

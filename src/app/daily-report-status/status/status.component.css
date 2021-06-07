@@ -1,0 +1,82 @@
+.status {
+    background: #8F5115;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.image {
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.status-det {
+    background: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+p {
+    color: white;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: white;
+    font-weight: 500;
+}
+
+.head-title {
+    margin-top: 65px;
+}
+
+.health {
+    display: flex;
+    flex-direction: row;
+}
+
+.health p {
+    padding: 5px;
+}
+
+.health-table {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.health-table table {
+    border-collapse: collapse;
+    margin: 10px;
+    width: 100%;
+}
+
+.health-table td {
+    font-size: 14px;
+    color: white;
+}
+
+.item-list {
+    width: 100%;
+}
+
+.issue-list {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+.issue-list ul, li {
+    color: white;
+}

@@ -1,0 +1,95 @@
+.status-item {
+    padding-top: 30px;
+    margin: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    border: 3px solid white;
+}
+
+.pulse-image {
+    position: absolute;
+    left: 10px;
+    top: 10px
+}
+
+.status-time {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.time-text {
+    margin: 0;
+    font-size: 12px;
+}
+
+.time-time {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.status-item-det {
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: black;
+    font-weight: 500;
+}
+
+.head-title {
+    margin-top: 30px;
+}
+
+.update-status {
+    padding: 10px;
+    background: white;
+    border: 2px solid #FF4100;
+    border-radius: 5px;
+    color: #FF4100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.status-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.status-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.status-table td, th {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.status-table tr:nth-child(even) {
+    background: rgba(250, 236, 231, 0.70);
+}
+
+.status-table tr:nth-child(odd) {
+    background: rgba(255, 244, 240, 0.60);
+}
